@@ -1,0 +1,43 @@
+<!DOCTYPE>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Добавление статьи</title>
+  </head>
+  <body>
+<h1>Добавить статью</h1>
+<fieldset>
+<div>
+
+<label for="name_article">Название статьи</label>
+<input minlength="10" maxlength="300"id="name_article"type="text" name="name_article" value="">
+</div>
+<div>
+  <label for="announce">Краткий анонс</label>
+  <textarea id="announce"name="announce" ></textarea>
+</div>
+<div>
+  <label for="text">Текст статьи</label>
+  <textarea minlenght="20" maxlength="300" id="text"></textarea>
+  <div>
+    <label for="file">Загрузка изображения</label>
+    <input multiple type="file" name="file" id="file" accept="image/jpeg">
+
+  </div>
+  <div>
+    <label for="category">Выбор категори</label>
+    <select id="category" name="category">
+      <option value="travel">Путешествия</option>
+      <option value="advise">Совет</option>
+      <option value="review">Отзыв</option>
+</select>
+</div>
+
+</div>
+<div>
+  <button type="submit">Опубликовать статью</button>
+
+</div>
+</fieldset>
+  </body>
+</html>
