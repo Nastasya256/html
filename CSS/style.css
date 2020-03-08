@@ -1,0 +1,81 @@
+
+body {
+margin: 8px;
+font: 12pt helvetica;
+font-size: 12px;
+color: darkgray;
+padding-left: 0;
+}
+header {
+  background: lightgray;
+}
+
+h3 {
+  font: 20pt helvetica;
+  font-size: 20px;
+  color: darkgreen;
+  font-weight: bold;
+  padding-left: 0;
+}
+h1 {
+  font: 22pt helvetica;
+  font-size: 22px;
+  color: darkgray;
+  padding-left: 0;
+
+}
+
+p {
+  font: 14pt helvetica;
+  font-size: 22px;
+  color: black;
+
+}
+.top_image{
+
+}
+.menu {
+  padding: 20px;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+  letter-spacing: 0.7px;
+  color: #000;
+padding-left: 0;
+}
+
+.about_us {
+  font: 30pt helvetica;
+  font-size: 30px;
+  color: black;
+  margin: 8px;
+  text-align: center;
+
+}
+.about_us1 {
+  font: 20pt helvetica;
+  font-size: 20px;
+  color: black;
+  margin: 8px;
+  text-align: center;
+
+}
+
+footer {
+  font: 14pt helvetica;
+  font-size: 14px;
+  color: darkgray;
+  margin: 8px;
+  text-align: left;
+
+}
+.readmore {
+    /*позиционирование*/
+    padding: 10px 10px;
+    font: 12pt helvetica;
+    font-size: 12px;
+    font-weight: bold;
+    color: inherit;
+    background: lightblue;
+
+}
