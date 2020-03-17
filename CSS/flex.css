@@ -1,0 +1,38 @@
+.flex-row {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+
+section {
+  display: flex;
+}
+
+.flex-1 {
+  height: auto;
+  weight: auto;
+}
+
+.flex-4 {
+  flex: 33.33%;
+
+}
+
+.flex-8 {
+  flex: 66.66%
+}
+
+.flex-12 {
+  flex: 100%;
+  width: 600px;
+}
+.flex-container {
+display: flex;
+  justify-content: flex-end;
+
+  align-items: center;
+  align-items: flex-end;
+  align-items: flex-start;
+}

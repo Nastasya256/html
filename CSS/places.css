@@ -1,1 +1,33 @@
 @import "style.css";
+@import "flex.css";
+
+
+.radius img {
+  border-radius: 50%;
+
+}
+
+.container p {
+  padding: 10px;
+}
+
+.container h5 {
+  font: 16pt;
+  font-style: italic;
+  color: darkgray;
+  padding: 10px;
+
+}
+
+.flex-12 {
+
+}
+
+.flex-container-2 {
+  display: flex;
+  justify-content: flex-start;
+  justify-content: flex-end;
+  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-around;
+}

@@ -10,6 +10,10 @@ header {
   background: lightgray;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
 h3 {
   font: 20pt helvetica;
   font-size: 20px;
@@ -25,11 +29,23 @@ h1 {
 
 }
 
+h5 {
+  font: 20pt helvetica;
+  font-size: 20px;
+  color: darkgray;
+  padding-left: 0;
+
+}
+
 p {
-  font: 14pt helvetica;
-  font-size: 22px;
+  font: 13pt helvetica;
+  font-size: 13px;
   color: black;
 
+  .container {
+      max-width: 1000px; /* 960 - 1200 */
+      margin: 0 auto;
+  }
 }
 .top_image{
 
@@ -78,4 +94,8 @@ footer {
     color: inherit;
     background: lightblue;
 
+}
+
+.container {
+  padding: 10px;
 }
