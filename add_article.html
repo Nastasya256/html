@@ -3,34 +3,48 @@
   <head>
     <meta charset="utf-8">
     <title>Добавление статьи</title>
+    <link rel="stylesheet" href="CSS/add_article.css">
   </head>
   <body>
+<div class="box">
+
+
 <h1>Добавить статью</h1>
-<fieldset>
+</div>
+<form enctype="multipart/form-data"
+      name="add_article" action="#" method="post">
 <div>
 
 <label for="name_article">Название статьи</label>
-<input minlength="10" maxlength="300"id="name_article"type="text" name="name_article" value="">
+<input minlength="2" maxlength="12"id="name_article"type="text" name="name_article" value="">
+<span></span>
 </div>
 <div>
-  <label for="announce">Краткий анонс</label>
+  <label required for="announce">Краткий анонс</label>
   <textarea id="announce"name="announce" ></textarea>
+  <span></span>
 </div>
 <div>
   <label for="text">Текст статьи</label>
   <textarea minlenght="20" maxlength="300" id="text"></textarea>
   <div>
-    <label for="file">Загрузка изображения</label>
+    <label class="file"for="file">Загрузка изображения</label>
     <input multiple type="file" name="file" id="file" accept="image/jpeg">
-
+<span></span>
   </div>
   <div>
+            <label for="age">Возраст путешественника</label>
+            <input required name="age" id="age" type="number" min="0" max="100">
+            <span></span>
+        </div>
+  <div>
     <label for="category">Выбор категори</label>
-    <select id="category" name="category">
-      <option value="travel">Путешествия</option>
-      <option value="advise">Совет</option>
-      <option value="review">Отзыв</option>
+    <select required id="category" name="category">
+      <option required value="travel">Путешествия</option>
+      <option required value="advise">Совет</option>
+      <option required value="review">Отзыв</option>
 </select>
+<span></span>
 </div>
 
 </div>
@@ -38,6 +52,6 @@
   <button type="submit">Опубликовать статью</button>
 
 </div>
-</fieldset>
+</form>
   </body>
 </html>

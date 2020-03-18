@@ -1,0 +1,51 @@
+
+
+h1 {
+  font: 20px helvetica;
+  text-transform: uppercase;
+  position: relative;
+}
+
+h1::after{
+  content: "We need more content!";
+  color: green;
+  font-style: italic;
+  padding: 10px;
+}
+button[type="submit"] {
+    font: 12pt helvetica;
+    border: 10px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    background: lightblue;
+
+}
+
+form :required + span:before {
+    content: "?";
+    border-radius: 100%;
+    color: blue;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+
+textarea:valid,
+input:in-range,
+input[type="text"]:valid {
+    border: 1px solid green;
+}
+
+textarea:invalid,
+input:out-of-range,
+input[type="text"]:invalid{
+    border: 1px solid red;
+}
+form :required:focus:valid + span:before,
+form :required:not(:focus):valid + span:before {
+    content: "!";
+
+    color: green;
+    margin-left: 10px;
+    font-size: 20px;
+}
