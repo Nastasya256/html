@@ -44,36 +44,15 @@ p {
   font: 13pt helvetica;
   font-size: 13px;
   color: black;
+}
 
-  .container {
+.container {
       max-width: 1000px; /* 960 - 1200 */
       margin: 0 auto;
   }
-
-
-.submenu li {
-      padding-left: none;
-      border-right: none;
-      text-transform: none;
+.top_image{
 
 }
-
-
-.content-center {
-      text-align: center;
-  }
-
-.menu a {
-    text-decoration: none;
-    color: black;
-    font: helvetica;
-    font-weight: semi-bold;
-}
- .menu ul {
-   list-style: none;
-
-
- }
 
 
 .about_us {
@@ -101,6 +80,9 @@ footer {
   text-align: left;
 
 }
+
+
+
 .readmore {
     /*позиционирование*/
     padding: 10px 10px;
@@ -115,4 +97,31 @@ footer {
 .container {
     max-width: 1000px; /* 960 - 1200 */
     margin: 0 auto;
+}
+
+
+.modal {
+position: absolute;
+  left: 50%;
+  border-radius: 50%;
+  background: lightblue;
+  padding: 70px;
+  opacity: 0.8;
+    transform: translate(-50%, -50%);
+  transition: all 0.8s;
+}
+.close-modal {
+  position: absolute;
+  color: darkgreen;
+  font-weight: bold;
+  top: 10px;
+  right: 10px;
+
+}
+.modal:target {
+    top: 50%;
+}
+
+.modal:not(:target) {
+    top: -50%;
 }
