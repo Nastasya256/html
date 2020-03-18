@@ -13,3 +13,53 @@ a {
   font-style: oblique;
   color: darkgray;
 }
+
+
+header {
+  font: 30px helvetica;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+
+
+.submenu li {
+      padding-left: none;
+      border-right: none;
+      text-transform: none;
+
+}
+
+
+.content-center {
+      text-align: center;
+  }
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font: helvetica;
+    font-weight: semi-bold;
+}
+ .menu ul {
+   list-style: none;
+
+
+ }
+
+.menu >ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu ul a:hover {
+background-color: lightblue;
+transition: all 0.3s ease;
+box-shadow: 1px 5px 10px -5px;
+}
+
+.submenu li a:hover {
+  background-color: darkgray;
+  transition: all 0.3s ease;
+}
